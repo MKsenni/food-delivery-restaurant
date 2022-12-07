@@ -1,0 +1,110 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 310px;
+    height: 552px;
+    padding: 43px 20px 32px 20px;
+    border: 1px solid #D58C51;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    transition-duration: 0.25s;
+    cursor: pointer;
+}
+
+.card:hover {
+    color: #D58C51;
+}
+
+.cardBasket {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card__img {
+    margin-bottom: 31px;
+}
+
+.card__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.card__title{
+    margin-bottom: 13px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.card__desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.card__down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: flex-end;
+}
+
+.card__down-price {
+    margin-right: 4px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.card__down-weight {
+    text-align: end;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+}
+
+.count .card__down-minus {
+    padding: 1px 7px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition-duration: 0.25s;
+}
+
+.sumCount {
+    margin: 0 4px;
+    color: #fff;
+}
+
+.count .card__down-plus {
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition-duration: 0.25s;
+}
+
+.card__down .card__down-minus:hover {
+    background-color: #D58C51;
+    border: 1px solid #D58C51;
+}
+
+.card__down .card__down-plus:hover {
+    background-color: #D58C51;
+    border: 1px solid #D58C51;
+}
+
